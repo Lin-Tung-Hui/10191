@@ -6,10 +6,10 @@ CMAKE_MINIMUM_REQUIRED (VERSION 3.15)
 #-------------------------------------------------------------------------------
 # Project Setups
 #-------------------------------------------------------------------------------
-PROJECT (ADDALL)
+PROJECT (RAIL)
 ENABLE_LANGUAGE(C CXX)
 
-#option(GTEST "Enable Google Test" ON)
+option(GTEST "Enable Google Test" ON)
 
 SET(CMAKE_VERBOSE_MAKEFILE ON)
 SET(CMAKE_COLOR_MAKEFILE ON)
